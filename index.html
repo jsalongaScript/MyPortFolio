@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="snow-container" id="snowContainer"></div>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <img src="/assets/LOGO_KN.png" alt="J.R.Salonga">
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Design">Design</a></li>
+        <li><a href="#HireMe" class="hire__me">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <header class="header__container">
+      <div class="header__image">
+        <img src="assets/Untitled_design__21_-removebg-preview.png" alt="header" />
+      </div>
+      
+      <div class="header__content" id="Home">
+        <h5>Welcome to my Portfolio</h5>
+        <h1>Hi, I am <span>Joana</span></h1>
+        <p>
+          I am Self taught web developer
+        </p>
+        <div class="links">
+          <div class="socials">
+            <h4>FIND ME</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="ri-facebook-line"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-behance-line"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h4>SKILLS</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="ri-html5-line"></i></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-css3-line"></i></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-javascript-line"></i></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="service" id="Services">
+      <div class="section__container service__container">
+        <p class="section__subtitle">What I Offer!</p>
+        <h2 class="section__title"><span>My</span> Services</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <i class="ri-smartphone-line"></i>
+            <h4>Web Design</h4>
+            <p>
+              We are dedicated to providing high-quality web design services
+              that are tailored to meet the specific needs of our clients.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-code-s-slash-line"></i>
+            <h4>Web Development</h4>
+            <p>
+              We leverage cutting-edge web technologies and development 
+              tools to build websites that are secure and scalable.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Creative Design</h4>
+            <p>
+              We take a collaborative approach and value your 
+              feedback throughout the design process to ensure we meet your expectations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="Design" id="Design">
+    <section class="py-20 bg-bl-100">
+      <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold">Sample Design</h2>
+          <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+                  <h3 class="text-2xl font-bold">Design 1</h3>
+                  <p class="mt-2">DriveSmart Rentals.</p>
+                  <img src="./assets/drivesmart rentals.gif" alt="">
+                  <a href="https://jsalongascript.github.io/samplewebsite1/">Live Demo</a>
+              </div>
+              <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold">Design 2</h3>
+                <p class="mt-2">MYECOMSOLUTION.</p>
+                <img src="./assets/myecomsolution.gif" alt="">
+                <a href="https://jsalongascript.github.io/myecomsolution/ ">Live Demo</a>
+            </div>
+            <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold">Design 3</h3>
+              <p class="mt-2">Security Agency</p>
+              <img src="./assets/VSS.gif" alt="">
+              <a href="https://jsalongascript.github.io/samplewebsite2/ ">Live Demo</a>
+          </div>
+          <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-bold">Design 4</h3>
+            <p class="mt-2">OnSen_SpA</p>
+            <img src="./assets/onsen_spa.gif" alt="">
+            <a href="https://jsalongascript.github.io/Onsen_spa/">Live Demo</a>
+        </div>
+        <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold">Design 5</h3>
+          <p class="mt-2">Purrfect Pets</p>
+          <img src="./assets/Purrfect Pets.gif" alt="">
+          <a href="https://jsalongascript.github.io/PetShop/">Live Demo</a>
+        </div>
+        <div class="bg-red-200 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold">Design 1</h3>
+          <p class="mt-2">DriveSmart Rentals.</p>
+          <img src="./assets/MYECOMSOLUTION2.0.gif" alt="">
+          <a href="https://jsalongascript.github.io/MYECOMSOLUTION2.0/">Live Demo</a>
+      </div>
+          </div>
+       </div>
+    </section>
+  </section> 
+  
+  <div class="contact__container" id="HireMe">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact__left">
+        <div class="contact__left__title">
+            <h2>Contact <span>Me!</span></h2>
+            <p>If you have any project in your mind</p>
+            <hr>
+           </div>
+           <input type="hidden" name="access_key" value="0a83256b-15a6-4bc2-8f54-6e824aadee02">
+           <input type="text": name="name" placeholder="Your name" class="contact-inputs" required>
+           <input type="email": name="name" placeholder="Your email" class="contact-inputs" required>
+           <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+           <button type="submit">Submit <img src="" alt=""></button>
+    </form>
+    <div class="contact__right">
+            <img src="./assets/rainbow1-removebg-preview.png" alt="">
+    </div>
+</div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
